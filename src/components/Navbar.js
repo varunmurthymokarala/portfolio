@@ -18,8 +18,8 @@ import {
     Apps,
     ContactMail,
     AssignmentInd,
-    ArrowBack
 } from '@material-ui/icons';
+import MenuIcon from '@material-ui/icons/Menu';
 import pic from "./../pp.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
@@ -98,7 +98,7 @@ const Navbar = () => {
           <AppBar position="static" style={{ background: "#222" }}>
             <Toolbar>
               <IconButton onClick={() => toggler(true)}>
-                <ArrowBack style={{ color: "tomato" }} /> 
+                <MenuIcon style={{ color: "tomato" }} /> 
                 <Typography variant="h4" style={{ color: "tan" }}>
                   portfolio
                 </Typography>

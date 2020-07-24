@@ -110,14 +110,14 @@ const Resume = () => {
         <Navbar />
         <Box component="header" className={classes.mainContainer}>
           <Typography variant="h4" align="center" className={classes.heading}>
-            Working Experience
+            Work Experience
           </Typography>
           <Box component="div" className={classes.timeLine}>
             <Typography
               variant="h2"
               className={`${classes.timeLineYear} ${classes.timeLineItem}`}
             >
-              2013
+              2020
             </Typography>
             <Box component="div" className={classes.timeLineItem}>
               <Typography
@@ -126,7 +126,8 @@ const Resume = () => {
                 className={classes.subHeading}
               >
                 {" "}
-                Web Developer
+                Graduate Assistant 
+                
               </Typography>
               <Typography
                 variant="body1"
@@ -134,17 +135,102 @@ const Resume = () => {
                 style={{ color: "tomato" }}
               >
                 {" "}
-                company name where worked{" "}
+                Cleveland State University{" "}
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                align="center"
+                style={{ color: "tomato" }}
+
+                                
+              >
+                Assisted Professor with lesson preparation, document student progress and supervising the students. 
+                Maintained atmosphere of academic learning and advancement to facilitate learning 
+                and development of critical thinking skills. 
+                
+                
+              </Typography>
+            </Box>
+            <Typography
+              variant="h2"
+              className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+            >
+              2018
+            </Typography>
+            <Box component="div" className={classes.timeLineItem}>
+              <Typography
+                variant="h5"
+                align="center"
+                className={classes.subHeading}
+              >
+                {" "}
+                JAVA DEVELOPER
+              </Typography>
+              <Typography
+                variant="body1"
+                align="center"
+                style={{ color: "tomato" }}
+              >
+                {" "}
+                SMART BRIDGE IOT SOLUTIONS{" "}
               </Typography>
               <Typography
                 variant="subtitle1"
                 align="center"
                 style={{ color: "tomato" }}
               >
-                React Material Ui in this Part #2(b) video we'll build a Resume
-                component. This is a good example of how to implement two
-                technologies (React & Material UI).
+                I worked on developing a web application using Spring Boot for implementing a RESTful backend
+                and Angular for creating a JavaScript-based frontend.
+                • Server-side validation was performed using Spring MVC Framework. 
+                Used postman to test developed APIs and HTTP methods for client-server communication. 
+                Hibernate, JPA are used to interact with the database.
+                • Front-end development using AngularJS, HTML, CSS and MySQL database for backend.
+                
+                
+                
               </Typography>
+            </Box>
+            <Typography
+              variant="h2"
+              className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+            >
+              2017
+            </Typography>
+            <Box component="div" className={classes.timeLineItem}>
+              <Typography
+                variant="h5"
+                align="center"
+                className={classes.subHeading}
+              >
+                {" "}
+                Junior Java developer
+              </Typography>
+              <Typography
+                variant="body1"
+                align="center"
+                style={{ color: "tomato" }}
+              >
+                {" "}
+                INSTITUTION OF ELECTRONICS AND TELECOMMUNICATION ENGINEERS{" "}
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                align="center"
+                style={{ color: "tomato" }}
+              >
+                • Involved in SDLC Requirements Analysis, design, development, and testing of web applications 
+                using an agile methodology. 
+                Reviewed existing codes on company websites and corrected malfunctioning, outdated 
+                sections of code. Performed testing on web applications using Selenium webDriver.
+                
+                
+                 
+
+
+                
+                
+                
+              {/*</Typography>
             </Box>
             <Typography
               variant="h2"
@@ -209,73 +295,7 @@ const Resume = () => {
               >
                 React Material Ui in this Part #2(b) video we'll build a Resume
                 component. This is a good example of how to implement two
-                technologies (React & Material UI).
-              </Typography>
-            </Box>
-            <Typography
-              variant="h2"
-              className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-            >
-              2013
-            </Typography>
-            <Box component="div" className={classes.timeLineItem}>
-              <Typography
-                variant="h5"
-                align="center"
-                className={classes.subHeading}
-              >
-                {" "}
-                Web Developer
-              </Typography>
-              <Typography
-                variant="body1"
-                align="center"
-                style={{ color: "tomato" }}
-              >
-                {" "}
-                company name where worked{" "}
-              </Typography>
-              <Typography
-                variant="subtitle1"
-                align="center"
-                style={{ color: "tomato" }}
-              >
-                React Material Ui in this Part #2(b) video we'll build a Resume
-                component. This is a good example of how to implement two
-                technologies (React & Material UI).
-              </Typography>
-            </Box>
-            <Typography
-              variant="h2"
-              className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-            >
-              2013
-            </Typography>
-            <Box component="div" className={classes.timeLineItem}>
-              <Typography
-                variant="h5"
-                align="center"
-                className={classes.subHeading}
-              >
-                {" "}
-                Web Developer
-              </Typography>
-              <Typography
-                variant="body1"
-                align="center"
-                style={{ color: "tomato" }}
-              >
-                {" "}
-                company name where worked{" "}
-              </Typography>
-              <Typography
-                variant="subtitle1"
-                align="center"
-                style={{ color: "tomato" }}
-              >
-                React Material Ui in this Part #2(b) video we'll build a Resume
-                component. This is a good example of how to implement two
-                technologies (React & Material UI).
+              technologies (React & Material UI).*/}
               </Typography>
             </Box>
           </Box>

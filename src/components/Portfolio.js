@@ -12,10 +12,11 @@ import {
   CardActionArea
 } from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
-import project1 from '../images/html-css-javascript.jpg'
-import project2 from '../images/react.png'
-import project3 from '../images/javascript-fullstack.jpg'
-import project4 from '../images/react-redux.jpg'
+import project1 from '../images/web development.png'
+import project2 from '../images/flightdelay.jpg'
+import project3 from '../images/Data Mining.jpg'
+import project4 from '../images/Nueral Network.png'
+import project5 from '../images/game.PNG'
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -46,27 +47,31 @@ const Portfolio = () => {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5">
-                    project 1
+                    Web Application
                   </Typography>
                   <Typography
                     component="p"
                     variant="body2"
                     color="textSecondary"
                   >
-                    React Material Ui in this Part #3 video we'll build a Resume
-                    component. This is a good example how to implement two
-                    technologies (React & Material UI).
+                    Developed a full-stack web application to store user’s information. 
+                    User’s will be able to create, fetch, update and delete records online.
+                    Environment: Server-side: Java, SpringMVC, SpringBoot and Spring REST modules.
+                    Client-side: HTML, CSS, AngularJS
+                    Back-end: MySQL.
+                    
+                    
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
+               {/* <Button size="small" color="primary">
+                  {" "}
+                 {} Share
+    </Button> */}
                 <Button size="small" color="primary">
                   {" "}
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  {" "}
-                  Live Demo
+                  Source code
                 </Button>
               </CardActions>
             </Card>
@@ -83,32 +88,34 @@ const Portfolio = () => {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5">
-                    project 2
+                    Predicting Flight Delays using Statistical Methods.
                   </Typography>
                   <Typography
                     component="p"
                     variant="body2"
                     color="textSecondary"
                   >
-                    React Material Ui in this Part #3 video we'll build a Resume
-                    component. This is a good example how to implement two
-                    technologies (React & Material UI).
+                    The model is to predict whether a flight you are considering booking is likely to arrive on time.
+                    Tools and Libraries: Python 3.7, Pandas, Scikit-learn, Matplotlib, Random forest Classifier.
+                    
+                    
+                    
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                {/*<Button size="small" color="primary">
                   {" "}
                   Share
-                </Button>
+  </Button>*/}
                 <Button size="small" color="primary">
-                  {" "}
+                  {" "} 
                   Live Demo
                 </Button>
               </CardActions>
             </Card>
           </Grid>
-          {/* project-1 */}
+           {/* project-1 */}
           <Grid item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
               <CardActionArea>
@@ -120,24 +127,25 @@ const Portfolio = () => {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5">
-                    project 3
+                    Data Mining Algorithms
                   </Typography>
                   <Typography
                     component="p"
                     variant="body2"
                     color="textSecondary"
                   >
-                    React Material Ui in this Part #3 video we'll build a Resume
-                    component. This is a good example how to implement two
-                    technologies (React & Material UI).
+                    Classification of attributes into qualitative and quantitative vectors, 
+                    and Implemented Decision Tree, kNN, and Naive Bayes Algorithms. 
+                    Programming Language: R Language.
+                    
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                {/*<Button size="small" color="primary">
                   {" "}
                   Share
-                </Button>
+</Button> */}
                 <Button size="small" color="primary">
                   {" "}
                   Live Demo
@@ -145,6 +153,7 @@ const Portfolio = () => {
               </CardActions>
             </Card>
           </Grid>
+          
           {/* project-1 */}
           <Grid item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
@@ -157,28 +166,71 @@ const Portfolio = () => {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5">
-                    project 4
+                    Neural Network (MNIST DATA)
                   </Typography>
                   <Typography
                     component="p"
                     variant="body2"
                     color="textSecondary"
                   >
-                    React Material Ui in this Part #3 video we'll build a Resume
-                    component. This is a good example how to implement two
-                    technologies (React & Material UI).
+                    Used the three-layer-feed-forward network architecture (input layer,hidden layer, and output layer)
+                    with multi-layer perceptron for the recognition of handwritten digits(0,1,2...9).Designed a fully 
+                    connected network structure of 784 input nodes and 10 output nodes.
+                    Programming Language: Python                    
+                    
+                    
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                {/*<Button size="small" color="primary">
                   {" "}
                   Share
-                </Button>
+</Button> */}
                 <Button size="small" color="primary">
                   {" "}
                   Live Demo
                 </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+           {/* project-1 */}
+           <Grid item xs={12} sm={8} md={6}>
+            <Card className={classes.cardContainer}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  alt="project-1"
+                  image={project5}
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5">
+                    Game 
+                  </Typography>
+                  <Typography
+                    component="p"
+                    variant="body2"
+                    color="textSecondary"
+                  >
+                    3D game development with c++,c#,JavaScript. 
+                    Game Engine: Unity. 
+                    Status: 09/2019 - In progress.
+                    
+                    
+                    
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                {/*<Button size="small" color="primary">
+                  {" "}
+                  Share
+</Button> 
+                <Button size="small" color="primary">
+                  {" "}
+                  Live Demo
+</Button>*/}
               </CardActions>
             </Card>
           </Grid>

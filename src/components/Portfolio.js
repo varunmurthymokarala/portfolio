@@ -69,7 +69,10 @@ const Portfolio = () => {
                   {" "}
                  {} Share
     </Button> */}
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                 href="http://github.com"
+                 rel="noopener"
+                 target="_blank">
                   {" "}
                   Source code
                 </Button>
@@ -108,7 +111,10 @@ const Portfolio = () => {
                   {" "}
                   Share
   </Button>*/}
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" 
+                 href="http://github.com"
+                 rel="noopener"
+                 target="_blank">
                   {" "} 
                   Live Demo
                 </Button>
@@ -146,7 +152,10 @@ const Portfolio = () => {
                   {" "}
                   Share
 </Button> */}
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                 href="http://github.com"
+                 rel="noopener"
+                 target="_blank">
                   {" "}
                   Live Demo
                 </Button>
@@ -187,7 +196,10 @@ const Portfolio = () => {
                   {" "}
                   Share
 </Button> */}
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                 href="http://github.com"
+                 rel="noopener"
+                 target="_blank">
                   {" "}
                   Live Demo
                 </Button>

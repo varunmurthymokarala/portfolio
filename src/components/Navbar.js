@@ -29,7 +29,7 @@ import Footer from "./Footer";
 const useStyles = makeStyles(theme=>({
   slidingNavContainer: {
     width: 250,
-    background: "#511",
+    background: "black",
     height: '100%'
   },
   avatar: {
@@ -98,7 +98,7 @@ const Navbar = () => {
           <AppBar position="static" style={{ background: "#222" }}>
             <Toolbar>
               <IconButton onClick={() => toggler(true)}>
-                <ArrowBack style={{ color: "tomato" }} />
+                <ArrowBack style={{ color: "tomato" }} /> 
                 <Typography variant="h4" style={{ color: "tan" }}>
                   portfolio
                 </Typography>

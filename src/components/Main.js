@@ -12,10 +12,10 @@ const useStyles = makeStyles(theme => ({
     //margin: theme.spacing(10)
   },
   title: {
-    color: "tomato",
+    color: "black",
   },
   subTitle: {
-    color: "tan",
+    color: "black",
   },
   center: {
     margin: "0",
@@ -40,7 +40,7 @@ const Main = () => {
         </Typography>
         <Typography variant="h5" className={classes.subTitle}>
           <Typed
-            strings={["Full Stack Java Developer", "Data Analyst"]}
+            strings={["Full Stack Java Developer"]}
             typeSpeed={40}
             backSpeed={60}
             loop

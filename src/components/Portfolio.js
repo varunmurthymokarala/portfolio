@@ -70,7 +70,7 @@ const Portfolio = () => {
                  {} Share
     </Button> */}
                 <Button size="small" color="primary"
-                 href="http://github.com"
+                 href="https://github.com/varunmurthymokarala/Web-Application"
                  rel="noopener"
                  target="_blank">
                   {" "}
@@ -112,7 +112,7 @@ const Portfolio = () => {
                   Share
   </Button>*/}
                 <Button size="small" color="primary" 
-                 href="http://github.com"
+                 href="https://www.kaggle.com/varunmurthymokarala/predicting-flight-delays"
                  rel="noopener"
                  target="_blank">
                   {" "} 
@@ -153,7 +153,7 @@ const Portfolio = () => {
                   Share
 </Button> */}
                 <Button size="small" color="primary"
-                 href="http://github.com"
+                 href="https://www.kaggle.com/varunmurthymokarala/notebooks"
                  rel="noopener"
                  target="_blank">
                   {" "}
@@ -197,7 +197,7 @@ const Portfolio = () => {
                   Share
 </Button> */}
                 <Button size="small" color="primary"
-                 href="http://github.com"
+                 href="https://www.kaggle.com/varunmurthymokarala/mnist-data-neural-network"
                  rel="noopener"
                  target="_blank">
                   {" "}

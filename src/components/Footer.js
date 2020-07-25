@@ -29,7 +29,7 @@ const Footer = () => {
           className={classes.root}
           style={{ padding: 0 }}
           icon={<LinkedInIcon />}
-          href="http://linkedin.com"
+          href="https://www.linkedin.com/in/varun-mokarala/"
           rel="noopener"
           target="_blank"
         />
@@ -37,7 +37,7 @@ const Footer = () => {
           className={classes.root}
           style={{ padding: 0 }}
           icon={<GitHubIcon />}
-          href="http://github.com"
+          href="https://github.com/varunmurthymokarala"
           rel="noopener"
           target="_blank"
         />

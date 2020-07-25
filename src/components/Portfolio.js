@@ -16,7 +16,9 @@ import project1 from '../images/web development.png'
 import project2 from '../images/flightdelay.jpg'
 import project3 from '../images/Data Mining.jpg'
 import project4 from '../images/Nueral Network.png'
-import project5 from '../images/game.PNG'
+import project5 from '../images/Poker.jpg'
+import project6 from '../images/game.PNG'
+
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -141,7 +143,7 @@ const Portfolio = () => {
                     color="textSecondary"
                   >
                     Classification of attributes into qualitative and quantitative vectors, 
-                    and Implemented Decision Tree, kNN, and Naive Bayes Algorithms. 
+                    Implemented Decision Tree, kNN, and Naive Bayes Algorithms and generated the confusion matrix, calculated the accuracy.
                     Programming Language: R Language.
                     
                   </Typography>
@@ -182,10 +184,10 @@ const Portfolio = () => {
                     variant="body2"
                     color="textSecondary"
                   >
-                    Used the three-layer-feed-forward network architecture (input layer,hidden layer, and output layer)
-                    with multi-layer perceptron for the recognition of handwritten digits(0,1,2...9).Designed a fully 
-                    connected network structure of 784 input nodes and 10 output nodes.
-                    Programming Language: Python                    
+                    Used the three-layer-feed-forward network architecture
+                    with multi-layer perceptron for the recognition of handwritten digits.Designed a fully 
+                    connected network structure of 784 input and 10 output nodes.PL: Python 
+                                       
                     
                     
                   </Typography>
@@ -206,6 +208,48 @@ const Portfolio = () => {
               </CardActions>
             </Card>
           </Grid>
+          {/* project-1 */}
+          <Grid item xs={12} sm={8} md={6}>
+            <Card className={classes.cardContainer}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  alt="project-1"
+                  image={project5}
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5">
+                    Poker Hand Classification
+                  </Typography>
+                  <Typography
+                    component="p"
+                    variant="body2"
+                    color="textSecondary"
+                  >
+                    Build a classifier using CART decision tree algorithm to classify the strength of a given poker hand.
+                    Tools: Python 3.7, Anaconda Navigator.
+
+                    
+                    
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+               {/* <Button size="small" color="primary">
+                  {" "}
+                 {} Share
+    </Button> */}
+                <Button size="small" color="primary"
+                 href="https://www.kaggle.com/varunmurthymokarala/poker-hand-classification"
+                 rel="noopener"
+                 target="_blank">
+                  {" "}
+                  Source code
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
            {/* project-1 */}
            <Grid item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
@@ -214,7 +258,7 @@ const Portfolio = () => {
                   component="img"
                   height="140"
                   alt="project-1"
-                  image={project5}
+                  image={project6}
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5">

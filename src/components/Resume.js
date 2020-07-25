@@ -135,7 +135,7 @@ const Resume = () => {
                 style={{ color: "tomato" }}
               >
                 {" "}
-                CLEVELAND STATE UNIVERSITY{" "}
+                CLEVELAND STATE UNIVERSITY.{" "}
               </Typography>
               <Typography
                 variant="subtitle1"
@@ -172,7 +172,7 @@ const Resume = () => {
                 style={{ color: "tomato" }}
               >
                 {" "}
-                SMART BRIDGE IOT SOLUTIONS{" "}
+                SMART BRIDGE IOT SOLUTIONS.{" "}
               </Typography>
               <Typography
                 variant="subtitle1"
@@ -211,7 +211,7 @@ const Resume = () => {
                 style={{ color: "tomato" }}
               >
                 {" "}
-                INSTITUTION OF ELECTRONICS AND TELECOMMUNICATION ENGINEERS{" "}
+                INSTITUTION OF ELECTRONICS AND TELECOMMUNICATION ENGINEERS.{" "}
               </Typography>
               <Typography
                 variant="subtitle1"

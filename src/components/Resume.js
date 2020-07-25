@@ -135,7 +135,7 @@ const Resume = () => {
                 style={{ color: "tomato" }}
               >
                 {" "}
-                Cleveland State University{" "}
+                CLEVELAND STATE UNIVERSITY{" "}
               </Typography>
               <Typography
                 variant="subtitle1"

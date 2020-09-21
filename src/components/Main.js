@@ -40,7 +40,7 @@ const Main = () => {
         </Typography>
         <Typography variant="h5" className={classes.subTitle}>
           <Typed
-            strings={["Full Stack Java Developer", "Data Analyst", "Game Developer"]}
+            strings={["Software Engineer"]}
             typeSpeed={40}
             backSpeed={60}
             loop

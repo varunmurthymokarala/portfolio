@@ -113,6 +113,45 @@ const Resume = () => {
             Professional Experience
           </Typography>
           <Box component="div" className={classes.timeLine}>
+          <Typography
+              variant="h2"
+              className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+            >
+              2020
+            </Typography>
+            <Box component="div" className={classes.timeLineItem}>
+              <Typography
+                variant="h5"
+                align="center"
+                className={classes.subHeading}
+              >
+                {" "}
+                Software Engineer
+              </Typography>
+              <Typography
+                variant="body1"
+                align="center"
+                style={{ color: "tomato" }}
+              >
+                {" "}
+                SMART BRIDGE IOT SOLUTIONS.{" "}
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                align="center"
+                style={{ color: "tomato" }}
+              >
+                I worked on developing a web application using Spring Boot for implementing a RESTful backend
+                and Angular for creating a JavaScript-based frontend.
+                • Server-side validation was performed using Spring MVC Framework. 
+                Used postman to test developed APIs and HTTP methods for client-server communication. 
+                Hibernate, JPA are used to interact with the database.
+                • Front-end development using AngularJS, HTML, CSS and MySQL database for backend.
+                
+                
+                
+              </Typography>
+            </Box>
             <Typography
               variant="h2"
               className={`${classes.timeLineYear} ${classes.timeLineItem}`}

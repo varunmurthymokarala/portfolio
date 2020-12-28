@@ -126,44 +126,6 @@ const Resume = () => {
                 className={classes.subHeading}
               >
                 {" "}
-                Software Engineer 
-                
-              </Typography>
-              <Typography
-                variant="body1"
-                align="center"
-                style={{ color: "tomato" }}
-              >
-                {" "}
-                Apricot Technologies.{" "}
-              </Typography>
-              <Typography
-                variant="subtitle1"
-                align="center"
-                style={{ color: "tomato" }}
-
-                                
-              >
-                Assisted Professor with lesson preparation, document student progress and supervising the students. 
-                Maintained atmosphere of academic learning and advancement to facilitate learning 
-                and development of critical thinking skills. 
-                
-                
-              </Typography>
-          <Box component="div" className={classes.timeLine}>
-            <Typography
-              variant="h2"
-              className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-            >
-              2020
-            </Typography>
-            <Box component="div" className={classes.timeLineItem}>
-              <Typography
-                variant="h5"
-                align="center"
-                className={classes.subHeading}
-              >
-                {" "}
                 Graduate Assistant 
                 
               </Typography>

@@ -110,8 +110,69 @@ const Resume = () => {
         <Navbar />
         <Box component="header" className={classes.mainContainer}>
           <Typography variant="h4" align="center" className={classes.heading}>
-            Work Experience
+            Professional Experience
           </Typography>
+          <Box component="div" className={classes.timeLine}>
+            <Typography
+              variant="h2"
+              className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+            >
+              2020
+            </Typography>
+            <Box component="div" className={classes.timeLineItem}>
+              <Typography
+                variant="h5"
+                align="center"
+                className={classes.subHeading}
+              >
+                {" "}
+                Software Engineer 
+                
+              </Typography>
+              <Typography
+                variant="body1"
+                align="center"
+                style={{ color: "tomato" }}
+              >
+                {" "}
+                Apricot Technologies LLC.{" "}
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                align="center"
+                style={{ color: "tomato" }}
+
+                                
+              >
+                Responsibilities:
+•  Involved in Software Development Life Cycle (SDLC), Analysis, Design, Development, and Testing of 
+    application developed using an AGILE methodology. 
+•  Developed Client-side application using Angular8, Typescript, Bootstrap, JavaScript, HTML5, CSS3. 
+•  Worked on Angular 8 features such as differential loading and creating web workers with CLI for     
+optimal application performance. Involved in development of navigation bar, multiple reusable components, modules for responsive Single Page Application (SPA). 
+•  Used Java8 for development of the server-side functionality. Used Java 8 features such as Stream API’ 
+    to achieve parallel execution while working on collections and Lambda expressions to implement 
+    functional interfaces.
+•  Used Spring Boot for building application with Spring initializers and developed REST-based 
+    Microservices. Used various Spring modules such as Spring core, beans, Spring IOC (Inversion of 
+    Control), Spring AOP (Aspect-Oriented programming) to implement middle tier.
+•  Used Spring Data JPA as persistence layer to interact with the database. Used Postman and the 
+    generated swagger to test the developed REST API’s for CRUD operations. Using MySQL as the 
+    backend database 
+•  Implemented test cases on server side in Junit and Mockito framework. Tested Angular 8 component 
+    with Jasmine and Karma testing frameworks.
+•  Using GIT as version control and Maintaining JIRA to create epics, stories, and subtasks.
+•  Using Jenkins for continuous integration and deployment of both server-side and client-side 
+    application using Docker to AWS environment.
+•  Working with Docker contained Spring Boot microservices into AWS EC2 container service using 
+    AWS Admin console. Creating Docker images/Container and integrating with spring boot.
+•  Creating AWS S3 buckets, performing folder management in each bucket.
+
+ENVIRONMENT: JAVA 8, HTML5, CSS3, JAVASCRIPT, ANGULAR 8, NODE JS, SPRING BOOT, MVC, SPRING DATA JPA, MICROSERVICES, RESTFUL WEB SERVICES, POSTMAN, MySQL, AMAZON S3, AMAZON EC2, MAVEN, JUNIT, SELENIUM, JIRA, GIT, JENKINS, APACHE KAFKA, VISUAL STUDIO.
+
+                
+                
+              </Typography>
           <Box component="div" className={classes.timeLine}>
             <Typography
               variant="h2"

@@ -39,13 +39,17 @@ const Main = () => {
           Varun Murthy Mokarala
         </Typography>
         <Typography variant="h5" className={classes.subTitle}>
+            Software Developer
+        </Typography>
+        <Typography variant="h5" className={classes.subTitle}>
           <Typed
-            strings={["Software Engineer"]}
+            strings={["Hey, I'm Varun. I love to solve real problems with awesome people. I specialize in Angular, HTML, CSS, Java and AWS that just work across all platforms and browsers. I care deeply about building applications that are usable and pleasant for the most number of people possible.My Professional life has been 100% driven by my passion for designing and developing applications. I used to draw amazingly detailed 3D models for fun when I was young, I started making promotional websites for small businesses in college, and in my final year of university, I created an app for my gaming guild. Right now, I’m excited about the Cloud platforms, and working towards becoming a Senior Full Stack Developer. In the following years, I also plan to explore the “BigData” more and become a better-rounded full-stack dev."]}
             typeSpeed={40}
-            backSpeed={60}
-            loop
+           /* backSpeed={70}
+            loop*/
           ></Typed>
         </Typography>
+        
       </Box>
     );
 }

@@ -56,7 +56,7 @@ const menuItems = [
   },
   {
     listIcon: <Apps />,
-    listText: "Projects",
+    listText: " Academic Projects",
     listPath: "/projects",
   },
   {
@@ -100,7 +100,7 @@ const Navbar = () => {
               <IconButton onClick={() => toggler(true)}>
                 <MenuIcon style={{ color: "tomato" }} /> 
                 <Typography variant="h4" style={{ color: "tan" }}>
-                  portfolio
+                  Portfolio
                 </Typography>
               </IconButton>
             </Toolbar>

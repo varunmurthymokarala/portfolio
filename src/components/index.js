@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Main from './Main'
-import Particles from 'react-particles-js'
+import Particles from "react-tsparticles";
 import {makeStyles} from '@material-ui/core/styles'
 
 const useStyles = makeStyles({

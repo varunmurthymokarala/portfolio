@@ -43,7 +43,7 @@ const Main = () => {
         </Typography>
         <Typography variant="h5" className={classes.subTitle}>
           <Typed
-            strings={["Hey, I'm Varun. I love to solve real problems with awesome people. I specialize in Cloud and application development that just work across all platforms and browsers. I care deeply about building applications that are usable and pleasant for the most number of people possible.My Professional life has been 100% driven by my passion for designing and developing applications. Right now, I’m excited about the Cloud platforms, and working towards becoming a Site Reliability Engineer/DevOps Engineer. In the following years, I also plan to explore the “BigData” more and become a better-rounded developer."]}
+            strings={["Hey, I'm Varun. I love to solve real problems with awesome people. I specialize in Cloud and Application development that just work across all platforms and browsers. I care deeply about building applications that are usable and pleasant for the most number of people possible.My Professional life has been 100% driven by my passion for designing and developing applications. Right now, I’m excited about the Cloud platforms, and working towards becoming a Site Reliability Engineer/DevOps Engineer."]}
             typeSpeed={40}
            /* backSpeed={70}
             loop*/

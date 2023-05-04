@@ -42,9 +42,6 @@ const ContactMe = () => {
               Email: mokaralavarun@gmail.com
             </Typography>
             <br />
-            <Typography variant="h5" className={classes.subHeading}>
-              Mobile: +1 (813) 599-1702
-            </Typography>
           </Box>
         </Grid>
       </Box>
